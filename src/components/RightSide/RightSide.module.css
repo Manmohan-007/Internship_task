@@ -1,0 +1,361 @@
+
+
+.Navwrapper{
+
+
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-right: 0px;
+    margin-left: 0px; 
+    padding: .5rem 1rem; 
+    position: relative; 
+    align-items: center;
+}
+ 
+.svgWrapper {
+  position:relative ; 
+   
+}
+.svgWrapper>svg {
+    position :absolute ;  
+    color: white;
+    top: 30%;
+    left: 9px;
+    cursor: pointer;
+}
+
+
+
+.MainWrapper    
+{
+    width : 100% ;  
+
+    margin-left: -15px; 
+
+}
+    
+    .subscribebtn{
+        font-size: 20px;
+        padding: 8px 20px;
+        border-radius: 5px;
+        background: linear-gradient(-32deg,#000033,#00ffff);
+        color: #fff;
+        border: 0px;
+        display: inline-block;
+        font-weight: 400;
+        text-align: center; 
+        cursor: pointer; 
+       outline: none;
+    
+    } 
+    .subscribebtn:active{
+        background-image: none;
+        background-color: #000033;
+    
+    } 
+    .myself{
+    
+        font-size: 20px;
+        padding: 8px 20px;
+        border-radius: 5px;
+        background: linear-gradient(-32deg,#000033,#00ffff);
+        color: #fff;
+        border: 0px;
+        display: inline-block;
+        font-weight: 400;
+        text-align: center; 
+        cursor: pointer; 
+       outline: none;
+    
+    
+    } 
+    .myself:active{
+        background-image: none;
+        background-color: #000033;
+    
+    } 
+    .searchbox{
+        padding: 13px 2px;
+        width: 400px;
+        background: #7c7c7c;
+        color: #fff;
+        border: 0px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px; 
+        position:relative ; 
+    } 
+    
+    .searchbox::placeholder {
+    
+    color: white; 
+    font-size: 15px ; 
+    padding-left: 8%; 
+    
+    } 
+    .CategoryBtn{
+        background: #7c7c7c;
+        color: #fff;
+        border: 0px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        font-size: 10px; 
+        padding: 15px ; 
+        box-sizing: border-box;
+        margin-right : -17px ; 
+        cursor : pointer ; 
+    
+    }  
+
+    .LandingSection{
+        display: flex; 
+        padding: 30px 0px; 
+
+
+    } 
+    .section1{
+      width : 96% ; 
+      margin-right : 10px ;  
+      margin-left: 3%;
+    } 
+    .spanpara{
+
+        color: #00AFAF;
+        margin-top : 15px ; 
+    } 
+    .cardWrapper{
+    
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    background: #2a2a2a;
+    }
+.cardWrapper h2 {
+    padding: 15px 30px;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    color : white ; 
+} 
+.para{
+padding:30px 20px ; 
+color: #aaaaaa;
+
+
+} 
+.gap{
+    padding: 5px 0;
+    background: linear-gradient(-32deg,#000033,#00ffff);
+} 
+.section2{
+    margin-left :10px ; 
+}
+
+
+
+.section2 img {
+
+    width: 300px;
+    padding: 40px 0;
+
+} 
+
+.userPic{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    margin-top: 0px;
+    justify-content: center;
+
+
+} 
+
+.btnMenuWrapper{
+  position: absolute;
+margin: .125rem -120px 0;
+font-size: 1rem;
+color: #fff;
+text-align: left;
+background-color: #757475;
+background-clip: padding-box; 
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+} 
+.dropDown{
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0; 
+} 
+.BtnMenuHide{
+    display: none;
+}
+.dropDown:hover{
+cursor: pointer ;
+background-color: white;
+
+}
+.bellicon{
+    color: #00ffff;
+    font-size: 40px;
+    padding: 4px;
+    border-radius: 30px;
+    cursor: pointer;
+} 
+.ellipis{
+    font-size: 25px;
+    
+} 
+
+
+
+
+
+.ellipisWrapper{
+
+position: relative; 
+cursor: pointer;
+color: rgba(255,255,255,.5);
+} 
+.ellipisDropdown{
+    position: absolute; 
+    margin: .125rem -120px 0;
+    font-size: 1rem;
+    color: #fff;
+    text-align: left;
+    background-color: #757475;
+    background-clip: padding-box; 
+    top: 100%;
+    right: 140px;
+    z-index: 1000; 
+    border-top-right-radius: -80px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+} 
+.ellipisDropdown div {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0; 
+    cursor: pointer; 
+  
+
+
+} 
+.ellipisDropdown div:hover{
+background-color: white; 
+cursor: pointer;
+
+
+} 
+.activeElipis{
+
+    color: white !important; 
+    cursor: pointer;  
+} 
+.mobileTopBar{
+    display: none;
+}
+.mbBtnBar{
+ display: none;
+    
+}
+
+@media(max-width : 570px){
+
+.LandingSection {
+
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+
+}
+.section1{
+    width : 100% ; 
+    margin-left: 40px;
+    padding: 0 3%;
+}
+.spanpara{
+    text-align: left;
+} 
+.section2 {
+    
+    width: 100%;
+    margin-left: 40px;
+    padding: 0 3%;
+}
+.Navwrapper{
+    display: none;
+} 
+.mobileTopBarLogo{
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.mobileTopBar{
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px; 
+    color : white ; 
+}
+.mbRightSection{
+  
+    display: flex; 
+    justify-content: space-between;  
+    margin-right: 6%;
+}
+.mbRightSection >svg {
+    background: #00ffff;
+    font-size: 30px;
+    padding: 4px;
+    border-radius: 30px; 
+    margin-right: 13% ; 
+    color : black ;
+} 
+.mbRightSection > img {
+    width: 35px;
+    height: 35px; 
+    border-radius: 50%;
+
+
+
+} 
+.mbBtnBar{
+display: flex; 
+margin-top : 20px ;
+ justify-content: center;
+
+} 
+.mbBtnBar >button {
+    padding: 8px 10px;
+    border-radius: 5px;
+    background: linear-gradient(-32deg,#000033,#00ffff);
+    color: #fff; 
+    cursor : pointer ;  
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle; 
+    user-select: none;
+    border: 1px solid transparent; 
+    margin-right : 10px ; 
+    outline:none ; 
+}
+}
